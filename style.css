@@ -144,6 +144,10 @@ body.light-mode nav ul li a {
     font-weight: bold;
 }
 
+.break {
+    display: none;
+  }
+
 @media (max-width: 1024px) {
     body {
         padding: 30px 20px;
@@ -173,6 +177,10 @@ body.light-mode nav ul li a {
     #name {
         font-size: 2.5rem;
     }
+
+    .break {
+        display: inline; /* Show break on small screens */
+      }
 }
 
 @media (max-width: 768px) {
@@ -219,6 +227,10 @@ body.light-mode nav ul li a {
     .introduction p {
         font-size: 0.95rem;
     }
+
+    .break {
+        display: inline; /* Show break on small screens */
+      }
 }
 
 @media (max-width: 480px) {
@@ -249,4 +261,8 @@ body.light-mode nav ul li a {
     #theme-toggle {
         font-size: 1.2rem;
     }
+
+    .break {
+        display: inline; /* Show break on small screens */
+      }
 }
