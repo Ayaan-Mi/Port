@@ -37,21 +37,27 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
     padding: 0;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 
 nav ul li {
-    margin: 0 20px;
+    margin: 0 15px;
+    display: inline-block;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
     transition: all 0.3s ease;
     position: relative;
+    display: inline-block;
 }
 
 nav ul li a::after {
