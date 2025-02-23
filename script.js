@@ -21,3 +21,24 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    VanillaTilt.init(document.querySelector(".card"), {
+        max: 25,
+        speed: 400
+    });
+
+    var typed = new Typed("#typed", {
+        strings: ["HTML", "CSS", "JavaScript", "MySQL"],
+        typeSpeed: 50,
+        backSpeed: 30,
+        loop: true
+    });
+});
+
+var typed = new Typed("#typed2", {
+    strings: ["Coding", "Gaming", "Tennis"],
+    typeSpeed: 50,
+    backSpeed: 30,
+    loop: true
+});
