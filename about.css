@@ -194,12 +194,11 @@ body.light-mode .text {
     }
 
     nav ul {
-        flex-direction: column;
-        align-items: center;
+        justify-content: center;
     }
 
     nav ul li {
-        margin: 10px 0;
+        margin: 0 15px;
     }
 
     .about-container {
